@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D49A962A18AD25A634E00C0 /* Pods_ChrisMom_Chris_Child.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835DBE0B3F7FD5A672DA7475 /* Pods_ChrisMom_Chris_Child.framework */; };
+		D04467DF2958824B005F5837 /* UserDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04467DE2958824B005F5837 /* UserDetailsModel.swift */; };
+		D08EF688295C4E64009AF37E /* SendingDareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08EF687295C4E64009AF37E /* SendingDareView.swift */; };
+		D08EF68A295C5D17009AF37E /* DareMessageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08EF689295C5D17009AF37E /* DareMessageDetailView.swift */; };
+		D08EF68C295F0E73009AF37E /* SendingDareViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08EF68B295F0E73009AF37E /* SendingDareViewCell.swift */; };
 		D090CD11295609CD00B70DC7 /* ChrisMom_Chris_ChildApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090CD10295609CD00B70DC7 /* ChrisMom_Chris_ChildApp.swift */; };
 		D090CD13295609CD00B70DC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090CD12295609CD00B70DC7 /* ContentView.swift */; };
 		D090CD15295609CE00B70DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D090CD14295609CE00B70DC7 /* Assets.xcassets */; };
 		D090CD18295609CE00B70DC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D090CD17295609CE00B70DC7 /* Preview Assets.xcassets */; };
 		D090CD1A295609CE00B70DC7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090CD19295609CE00B70DC7 /* Persistence.swift */; };
 		D090CD1D295609CE00B70DC7 /* ChrisMom_Chris_Child.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D090CD1B295609CE00B70DC7 /* ChrisMom_Chris_Child.xcdatamodeld */; };
+		D090CD242956120800B70DC7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D090CD232956120800B70DC7 /* GoogleService-Info.plist */; };
+		D090CD262956158F00B70DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D090CD252956158F00B70DC7 /* AppDelegate.swift */; };
+		D0B35C012956B1EF00CC24EA /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B35C002956B1EF00CC24EA /* AppConstants.swift */; };
+		D0B35C032956B36200CC24EA /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B35C022956B36200CC24EA /* LandingPage.swift */; };
+		D0B35C052956BB5300CC24EA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B35C042956BB5300CC24EA /* LoginView.swift */; };
+		D0B35C072956BCD500CC24EA /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B35C062956BCD500CC24EA /* RegisterView.swift */; };
+		D0B35C092956C2C500CC24EA /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B35C082956C2C500CC24EA /* AuthenticationService.swift */; };
+		D0B35C0B2956CD1300CC24EA /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B35C0A2956CD1300CC24EA /* DashboardView.swift */; };
+		D0B35C0D2957556000CC24EA /* validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B35C0C2957556000CC24EA /* validators.swift */; };
+		D0B8B8B6295C109E00BF5007 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8B8B5295C109E00BF5007 /* GameService.swift */; };
+		D0B8B8BA295C131900BF5007 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8B8B9295C131900BF5007 /* PlayerListView.swift */; };
+		D0B8B8BC295C177200BF5007 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B8B8BB295C177200BF5007 /* MainScreen.swift */; };
+		D0F079AB2961594900FCBC0F /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F079AA2961594900FCBC0F /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		835DBE0B3F7FD5A672DA7475 /* Pods_ChrisMom_Chris_Child.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChrisMom_Chris_Child.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04467DE2958824B005F5837 /* UserDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsModel.swift; sourceTree = "<group>"; };
+		D08EF687295C4E64009AF37E /* SendingDareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingDareView.swift; sourceTree = "<group>"; };
+		D08EF689295C5D17009AF37E /* DareMessageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DareMessageDetailView.swift; sourceTree = "<group>"; };
+		D08EF68B295F0E73009AF37E /* SendingDareViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendingDareViewCell.swift; sourceTree = "<group>"; };
 		D090CD0D295609CD00B70DC7 /* ChrisMom-Chris Child.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChrisMom-Chris Child.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D090CD10295609CD00B70DC7 /* ChrisMom_Chris_ChildApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChrisMom_Chris_ChildApp.swift; sourceTree = "<group>"; };
 		D090CD12295609CD00B70DC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +46,21 @@
 		D090CD17295609CE00B70DC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D090CD19295609CE00B70DC7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D090CD1C295609CE00B70DC7 /* ChrisMom_Chris_Child.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChrisMom_Chris_Child.xcdatamodel; sourceTree = "<group>"; };
+		D090CD232956120800B70DC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D090CD252956158F00B70DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B35C002956B1EF00CC24EA /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		D0B35C022956B36200CC24EA /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		D0B35C042956BB5300CC24EA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D0B35C062956BCD500CC24EA /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D0B35C082956C2C500CC24EA /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		D0B35C0A2956CD1300CC24EA /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		D0B35C0C2957556000CC24EA /* validators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validators.swift; sourceTree = "<group>"; };
+		D0B8B8B5295C109E00BF5007 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		D0B8B8B9295C131900BF5007 /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
+		D0B8B8BB295C177200BF5007 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		D0F079AA2961594900FCBC0F /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		E0C449915E429BDAF8E7B048 /* Pods-ChrisMom-Chris Child.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChrisMom-Chris Child.debug.xcconfig"; path = "Target Support Files/Pods-ChrisMom-Chris Child/Pods-ChrisMom-Chris Child.debug.xcconfig"; sourceTree = "<group>"; };
+		FA86E194E565CCCC53AD6788 /* Pods-ChrisMom-Chris Child.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChrisMom-Chris Child.release.xcconfig"; path = "Target Support Files/Pods-ChrisMom-Chris Child/Pods-ChrisMom-Chris Child.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +68,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D49A962A18AD25A634E00C0 /* Pods_ChrisMom_Chris_Child.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E154D77939FDD638B866B73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835DBE0B3F7FD5A672DA7475 /* Pods_ChrisMom_Chris_Child.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11ACA64CFACB9BA78F675447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0C449915E429BDAF8E7B048 /* Pods-ChrisMom-Chris Child.debug.xcconfig */,
+				FA86E194E565CCCC53AD6788 /* Pods-ChrisMom-Chris Child.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D090CD04295609CD00B70DC7 = {
 			isa = PBXGroup;
 			children = (
 				D090CD0F295609CD00B70DC7 /* ChrisMom-Chris Child */,
 				D090CD0E295609CD00B70DC7 /* Products */,
+				11ACA64CFACB9BA78F675447 /* Pods */,
+				0E154D77939FDD638B866B73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +113,14 @@
 		D090CD0F295609CD00B70DC7 /* ChrisMom-Chris Child */ = {
 			isa = PBXGroup;
 			children = (
+				D0B35BFF2956B1D700CC24EA /* constants */,
+				D090CD2A29561A0B00B70DC7 /* services */,
+				D090CD29295619F900B70DC7 /* viewModel */,
+				D090CD28295619ED00B70DC7 /* models */,
+				D090CD27295619DE00B70DC7 /* views */,
 				D090CD10295609CD00B70DC7 /* ChrisMom_Chris_ChildApp.swift */,
+				D090CD232956120800B70DC7 /* GoogleService-Info.plist */,
+				D090CD252956158F00B70DC7 /* AppDelegate.swift */,
 				D090CD12295609CD00B70DC7 /* ContentView.swift */,
 				D090CD14295609CE00B70DC7 /* Assets.xcassets */,
 				D090CD19295609CE00B70DC7 /* Persistence.swift */,
@@ -73,6 +138,56 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D090CD27295619DE00B70DC7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				D0B35C022956B36200CC24EA /* LandingPage.swift */,
+				D0B35C042956BB5300CC24EA /* LoginView.swift */,
+				D0B35C062956BCD500CC24EA /* RegisterView.swift */,
+				D0B35C0A2956CD1300CC24EA /* DashboardView.swift */,
+				D0B8B8B9295C131900BF5007 /* PlayerListView.swift */,
+				D0B8B8BB295C177200BF5007 /* MainScreen.swift */,
+				D08EF687295C4E64009AF37E /* SendingDareView.swift */,
+				D08EF689295C5D17009AF37E /* DareMessageDetailView.swift */,
+				D08EF68B295F0E73009AF37E /* SendingDareViewCell.swift */,
+				D0F079AA2961594900FCBC0F /* PickerView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		D090CD28295619ED00B70DC7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				D0B35C0C2957556000CC24EA /* validators.swift */,
+				D04467DE2958824B005F5837 /* UserDetailsModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		D090CD29295619F900B70DC7 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		D090CD2A29561A0B00B70DC7 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				D0B35C082956C2C500CC24EA /* AuthenticationService.swift */,
+				D0B8B8B5295C109E00BF5007 /* GameService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		D0B35BFF2956B1D700CC24EA /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				D0B35C002956B1EF00CC24EA /* AppConstants.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D090CD20295609CE00B70DC7 /* Build configuration list for PBXNativeTarget "ChrisMom-Chris Child" */;
 			buildPhases = (
+				765493F80DBA4A7E3975F2A1 /* [CP] Check Pods Manifest.lock */,
 				D090CD09295609CD00B70DC7 /* Sources */,
 				D090CD0A295609CD00B70DC7 /* Frameworks */,
 				D090CD0B295609CD00B70DC7 /* Resources */,
+				92EDD76384CBE4468B5FA3C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,20 +250,79 @@
 			files = (
 				D090CD18295609CE00B70DC7 /* Preview Assets.xcassets in Resources */,
 				D090CD15295609CE00B70DC7 /* Assets.xcassets in Resources */,
+				D090CD242956120800B70DC7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		765493F80DBA4A7E3975F2A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChrisMom-Chris Child-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92EDD76384CBE4468B5FA3C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChrisMom-Chris Child/Pods-ChrisMom-Chris Child-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChrisMom-Chris Child/Pods-ChrisMom-Chris Child-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChrisMom-Chris Child/Pods-ChrisMom-Chris Child-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D090CD09295609CD00B70DC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B35C0D2957556000CC24EA /* validators.swift in Sources */,
+				D0B35C072956BCD500CC24EA /* RegisterView.swift in Sources */,
+				D0B35C032956B36200CC24EA /* LandingPage.swift in Sources */,
 				D090CD1A295609CE00B70DC7 /* Persistence.swift in Sources */,
+				D0B35C012956B1EF00CC24EA /* AppConstants.swift in Sources */,
+				D08EF68A295C5D17009AF37E /* DareMessageDetailView.swift in Sources */,
+				D0B8B8BC295C177200BF5007 /* MainScreen.swift in Sources */,
 				D090CD13295609CD00B70DC7 /* ContentView.swift in Sources */,
+				D0B8B8B6295C109E00BF5007 /* GameService.swift in Sources */,
 				D090CD1D295609CE00B70DC7 /* ChrisMom_Chris_Child.xcdatamodeld in Sources */,
+				D0B35C0B2956CD1300CC24EA /* DashboardView.swift in Sources */,
+				D0B8B8BA295C131900BF5007 /* PlayerListView.swift in Sources */,
+				D08EF68C295F0E73009AF37E /* SendingDareViewCell.swift in Sources */,
+				D090CD262956158F00B70DC7 /* AppDelegate.swift in Sources */,
+				D0F079AB2961594900FCBC0F /* PickerView.swift in Sources */,
+				D0B35C052956BB5300CC24EA /* LoginView.swift in Sources */,
+				D08EF688295C4E64009AF37E /* SendingDareView.swift in Sources */,
 				D090CD11295609CD00B70DC7 /* ChrisMom_Chris_ChildApp.swift in Sources */,
+				D0B35C092956C2C500CC24EA /* AuthenticationService.swift in Sources */,
+				D04467DF2958824B005F5837 /* UserDetailsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +445,7 @@
 		};
 		D090CD21295609CE00B70DC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C449915E429BDAF8E7B048 /* Pods-ChrisMom-Chris Child.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -278,11 +455,12 @@
 				DEVELOPMENT_TEAM = FK46LLGFK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,6 +476,7 @@
 		};
 		D090CD22295609CE00B70DC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA86E194E565CCCC53AD6788 /* Pods-ChrisMom-Chris Child.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -307,11 +486,12 @@
 				DEVELOPMENT_TEAM = FK46LLGFK4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
